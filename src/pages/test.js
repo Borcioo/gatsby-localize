@@ -8,8 +8,7 @@ const TestPage = () => {
 
   return (
     <>
-      test
-      <p>{t("text")}</p>
+      <p>{t("test")}</p>
     </>
   );
 };
