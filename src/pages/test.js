@@ -3,17 +3,18 @@ import { graphql } from "gatsby";
 
 import { useTranslation } from "gatsby-plugin-react-i18next";
 
-const IndexPage = () => {
+const TestPage = () => {
   const { t } = useTranslation();
 
   return (
     <>
+      test
       <p>{t("text")}</p>
     </>
   );
 };
 
-export default IndexPage;
+export default TestPage;
 
 export const query = graphql`
   query ($language: String!) {
